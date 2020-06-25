@@ -19,7 +19,7 @@ library(stringr)
 
 options(stringsAsFactors = FALSE)     #Strings will not be treated as Factors.
 
-create_file="D:/Shubham/TY/Skill Development/twitterOauth.txt"
+create_file="twitterOauth.txt"
 oauthCreds = read.table(create_file,header=T)
 setup_twitter_oauth("3xCZZDb4QFuqYLed4GfNOSnA4",
                     "89NVcqaw3zOD6tJiisz9s4zvGOBZ5sI7a0jOIs0C1OhC5eeaQl",
